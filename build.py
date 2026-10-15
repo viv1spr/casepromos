@@ -252,7 +252,7 @@ def head(lang, page, title, desc, alts, extra="", img=None):
 <meta property="og:locale" content="{T[lang]["og_locale"]}"><meta property="og:site_name" content="{e(BRAND)}">
 <meta property="og:image" content="{og}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="{e(title)}">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}"><meta name="twitter:description" content="{e(desc)}"><meta name="twitter:image" content="{og}">
-<meta name="theme-color" content="#07080d">
+<meta name="theme-color" content="#07080d">{f'<meta name="yandex-verification" content="{e(CFG["yandex_verification"])}">' if CFG.get("yandex_verification") else ""}
 <link rel="icon" href="{rel(page, "assets/favicon.svg", False)}" type="image/svg+xml">
 {FONTS}
 <link rel="stylesheet" href="{rel(page, "assets/style.css", False)}">
@@ -264,33 +264,48 @@ def suggest_data(alts, page):
     return json.dumps({l: [T[l]["suggest"], T[l]["suggest_btn"], rel(page, alts[l])] for l in LANGS if l in alts}, ensure_ascii=False)
 
 
-def gamebar(lang, page, game):
+def game_switch(lang, page, game):
     N = GAMES[lang]["names"]
     items = [("cs2", p_home(lang))] + [(g, p_game(lang, g)) for g in GAME_LIST if sites_game(lang, g)]
-    links = "".join(f'<a href="{rel(page, u)}" class="g-{g}{ON_C if g == game else ""}"{ARIA if g == game else ""}>{e(N[g])}</a>' for g, u in items)
-    return f'<div class="wrap gamebar-w"><nav class="gamebar" aria-label="{e(GAMES[lang]["label"])}"><span class="gb-l">{e(GAMES[lang]["label"])}:</span>{links}</nav></div>'
+    links = "".join(f'<a href="{rel(page, u)}" class="g-{g}{ON_C if g == game else ""}"{ARIA if g == game else ""}><i></i>{e(N[g])}</a>' for g, u in items)
+    return f'<nav class="gsw" aria-label="{e(GAMES[lang]["label"])}">{links}</nav>'
 
 
 def topbar(lang, page, alts, active=None, clean=False, game="cs2"):
     t = T[lang]
     G = GUIDES[lang]
-    if clean:
-        nav = f'<a href="{rel(page, p_guides(lang))}"{ON if active == "guides" else ""}><i class="dot d-guides"></i>{e(G["nav"])}</a>'
-        nav += "".join(f'<a href="{rel(page, p_type(lang, ty))}"><i class="dot d-{ty}"></i>{e(t["types"][ty])}</a>' for ty in types_for(lang) if ty in TRADE_TYPES)
-    else:
-        nav = f'<a href="{rel(page, p_home(lang))}"{ON if active is None else ""}>{e(t["nav_all"])}</a>'
-        nav += "".join(f'<a href="{rel(page, p_type(lang, ty))}"{ON if active == ty else ""}><i class="dot d-{ty}"></i>{e(t["types"][ty])}</a>' for ty in types_for(lang))
-        nav += f'<a href="{rel(page, p_codes(lang))}"{ON if active == "codes" else ""}><i class="dot d-codes"></i>{e(t["nav_codes"])}</a>'
-        nav += f'<a href="{rel(page, p_guides(lang))}"><i class="dot d-guides"></i>{e(G["nav"])}</a>'
+    def a(u, label, on, cls=""):
+        c = (cls + (" on" if on else "")).strip()
+        c_attr = f' class="{c}"' if c else ""
+        return f'<a href="{rel(page, u)}"{c_attr}{ARIA if on else ""}>{label}</a>'
+    main = []
+    if not clean:
+        main.append(a(p_codes(lang), e(t["nav_codes"]), active == "codes", "hot"))
+    main.append(a(p_guides(lang), e(G["nav"]), active == "guides"))
     if POSTS_BY_LANG.get(lang):
-        nav += f'<a href="{rel(page, p_blog(lang))}"{ON if active == "blog" else ""}><i class="dot d-blog"></i>{e(BLOG[lang]["nav"])}</a>'
+        main.append(a(p_blog(lang), e(BLOG[lang]["nav"]), active == "blog"))
+    main_html = "".join(main)
+    if clean:
+        cats = [a(p_type(lang, ty), f'<i class="dot d-{ty}"></i>{e(t["types"][ty])}', active == ty) for ty in types_for(lang) if ty in TRADE_TYPES]
+    elif game == "cs2":
+        cats = [a(p_home(lang), e(t["nav_all"]), active is None)] + \
+               [a(p_type(lang, ty), f'<i class="dot d-{ty}"></i>{e(t["types"][ty])}', active == ty) for ty in types_for(lang)]
+    else:
+        cats = []
+    cats_html = f'<div class="subnav"><div class="wrap"><nav class="cats" aria-label="categories">{"".join(cats)}</nav></div></div>' if cats else ""
+    gsw = "" if clean else game_switch(lang, page, game)
     return f'''<div class="bg" aria-hidden="true"><i></i><i></i><i></i></div>
 <div id="suggest" class="suggest" hidden><span></span><a class="btn btn-sm btn-primary" href="#"></a><button type="button" class="x" aria-label="close">✕</button></div>
-<header class="top"><div class="wrap top-in">
-  <a class="brand" href="{rel(page, p_home(lang))}"><img src="{rel(page, "assets/favicon.svg", False)}" alt="" width="30" height="30"><span>{e(BRAND)}</span></a>
-  <nav class="tabs" aria-label="categories">{nav}</nav>
-  {lang_switch(alts, lang, page)}
-</div></header>{"" if clean else gamebar(lang, page, game)}'''
+<header class="hdr{" clean" if clean else ""}">
+  <div class="wrap hdr-row">
+    <a class="brand" href="{rel(page, p_home(lang))}"><img src="{rel(page, "assets/favicon.svg", False)}" alt="" width="30" height="30"><span>{e(BRAND)}</span></a>
+    {gsw}
+    <nav class="mainnav" id="mainnav" aria-label="main">{main_html}</nav>
+    {lang_switch(alts, lang, page)}
+    <button type="button" class="burger" id="burger" aria-label="Menu" aria-controls="mainnav" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+  {cats_html}
+</header>'''
 
 
 def foot_links(lang, page, clean=False):
@@ -302,11 +317,18 @@ def foot_links(lang, page, clean=False):
     return "".join(f'<a href="{rel(page, u)}">{e(n)}</a>' for n, u in links)
 
 
+def foot_sites(lang, page, clean=False):
+    ss = [x for x in sites_for(lang) if not clean or x["type"] in TRADE_TYPES]
+    links = "".join(f'<a href="{rel(page, p_review(lang, x["slug"]))}">{e(x["name"])}</a>' for x in ss)
+    return f'<div class="foot-sites"><b>{e(T[lang]["nav_codes"] if not clean else GUIDES[lang]["nav"])}:</b>{links}</div>'
+
+
 def footer(lang, page, clean=False):
     t = T[lang]
     disc = f'<p>{e(GUIDES[lang]["disclaimer"])}</p>' if clean else f'<p><span class="age18">18+</span> {e(t["footer_disclaimer"])}</p>'
     return f'''<footer class="foot"><div class="wrap">
   <nav class="foot-links">{foot_links(lang, page, clean)}</nav>
+  {foot_sites(lang, page, clean)}
   <div class="foot-brand"><img src="{rel(page, "assets/favicon.svg", False)}" alt="" width="26" height="26"> {e(BRAND)}</div>
   {disc}
   <p class="coop">{e(t["coop"])} <a href="https://t.me/Vivistop" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M21.9 4.3 18.7 19.4c-.2 1-.9 1.3-1.8.8l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6.2 13.1l-4.8-1.5c-1-.3-1-1 .2-1.5L20.6 2.8c.9-.3 1.6.2 1.3 1.5z"/></svg>Telegram @Vivistop</a></p>
@@ -415,8 +437,15 @@ def build_list_page(lang, typ=None):
   {seo_block(lang, typ or "home")}
 </main>
 {footer(lang, page)}'''
+    items = {"@context": "https://schema.org", "@type": "ItemList", "name": h1, "itemListElement": [
+        {"@type": "ListItem", "position": i, "name": x["name"], "url": f"{BASE_URL}/{p_review(lang, x['slug'])}"} for i, x in enumerate(sites, 1)]}
+    faq_ld += ld_tags(items)
     if typ:
         faq_ld += ld_tags(breadcrumb_ld([(t["home_crumb"], p_home(lang)), (t["types"][typ], page)]))
+    else:
+        faq_ld += ld_tags({"@context": "https://schema.org", "@type": "WebSite", "name": BRAND, "url": f"{BASE_URL}/{page}", "inLanguage": t["html_lang"]},
+                          {"@context": "https://schema.org", "@type": "Organization", "name": BRAND, "url": BASE_URL + "/", "logo": f"{BASE_URL}/assets/favicon.svg",
+                           "sameAs": ["https://t.me/Vivistop"]})
     write(page, head(lang, page, title, desc, alts, faq_ld) + body)
     return page, alts
 

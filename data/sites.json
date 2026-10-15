@@ -51,7 +51,8 @@
    "pl": "Bot do wymiany, rynek P2P i szybka sprzedaż skinów CS2 w jednym miejscu.",
    "tr": "CS2 skinleri için takas botu, P2P pazar ve anında satış tek yerde.",
    "pt-br": "Bot de trade, marketplace P2P e venda instantânea de skins CS2 num só lugar.",
-   "es": "Bot de intercambio, mercado P2P y venta instantánea de skins CS2 en un solo sitio."
+   "es": "Bot de intercambio, mercado P2P y venta instantánea de skins CS2 en un solo sitio.",
+   "ru": "Трейд-бот, P2P-маркет и моментальная продажа скинов CS2 на одном сайте."
   },
   "about": {
    "en": [
@@ -68,6 +69,9 @@
    ],
    "es": [
     "CS.MONEY funciona desde 2016 y es uno de los servicios de trading de skins CS2 más conocidos. Reúne tres modos: Trade (intercambio instantáneo con los bots de la web), Market (comprar y vender con otros jugadores) e Instant Sell (vender la skin por saldo sin esperar comprador). La opera CS Virtual Trade Ltd. (Chipre)."
+   ],
+   "ru": [
+    "CS.MONEY работает с 2016 года и входит в число самых известных сервисов для обмена скинов CS2. Сайт объединяет три режима: Trade (моментальный обмен с ботами сайта), Market (покупка и продажа скинов у других игроков) и Instant Sell (продажа скина на баланс без ожидания покупателя). Оператор сайта — CS Virtual Trade Ltd. (Кипр)."
    ]
   },
   "pros": {
@@ -90,6 +94,10 @@
    "es": [
     "Tres modos en una cuenta: bot de intercambio, mercado P2P y venta instantánea",
     "Comisión de venta en el Market del 5%, solo 3% en objetos desde 1.000 $"
+   ],
+   "ru": [
+    "Три режима в одном аккаунте: трейд-бот, P2P-маркет и моментальная продажа",
+    "Комиссия продавца на маркете — 5%, на предметы от $1000 — всего 3%"
    ]
   },
   "cons": {
@@ -107,6 +115,9 @@
    ],
    "es": [
     "Los precios del modo Trade incluyen el margen de la web, así que cambiar sale más caro que en un mercado P2P"
+   ],
+   "ru": [
+    "Цены в режиме Trade включают наценку сайта, поэтому обмен обходится дороже, чем на P2P-маркете"
    ]
   },
   "seo": {
@@ -169,6 +180,18 @@
     "- Los retiros a tarjeta van sobre todo a Visa y no están disponibles en todos los países — revisa la página de retiros de tu región antes de vender.",
     "## CS.MONEY frente a otras webs",
     "Si solo buscas el mejor precio al vender, compara el precio del Market con webs P2P como Waxpeer o DMarket. Si quieres un cambio rápido desde un inventario grande, el modo Trade de CS.MONEY es de las opciones más cómodas."
+   ],
+   "ru": [
+    "## Как пользоваться CS.MONEY: Trade, Market и Instant Sell",
+    "Режим Trade предназначен для обмена: вы выставляете свои скины с одной стороны, выбираете скины у ботов с другой — и обмен проходит мгновенно. Комиссия сайта уже заложена в цены предметов, поэтому при равноценном обмене отдельная плата не взимается.",
+    "Режим Market (CS.MONEY маркет) работает как классическая P2P-площадка. Продавцы платят комиссию 5% (3% на предметы стоимостью от $1000), покупатели не платят ничего, а лоты других игроков часто дешевле, чем в режиме Trade.",
+    "Instant Sell позволяет сразу продать скин на баланс, если вы не хотите ждать покупателя, — удобно, но обычно немного дешевле, чем продажа на маркете.",
+    "## Вывод денег с CS.MONEY",
+    "- Перед первым выводом требуется верификация личности (KYC).",
+    "- Деньги от продаж на маркете удерживаются 7 дней, прежде чем их можно вывести.",
+    "- Вывод на карту доступен в основном на Visa и не во всех странах — проверьте страницу вывода для своего региона до продажи.",
+    "## CS.MONEY и другие сайты",
+    "Если вам нужна лучшая цена при продаже, сравните цену на маркете с P2P-площадками вроде Waxpeer или DMarket. Если нужен быстрый обмен из большого инвентаря, режим Trade на CS.MONEY — один из самых удобных вариантов."
    ]
   },
   "faq": {
@@ -241,6 +264,20 @@
      "¿CS.MONEY es fiable?",
      "CS.MONEY funciona desde 2016 y lo opera CS Virtual Trade Ltd., de Chipre. Como en cualquier web de skins, usa solo el dominio oficial cs.money y confirma los intercambios en la app de Steam."
     ]
+   ],
+   "ru": [
+    [
+     "Какая комиссия на маркете CS.MONEY?",
+     "Продавцы платят 5% на маркете (3% на предметы от $1000), для покупателей комиссии нет. В режиме Trade комиссия заложена в цены предметов."
+    ],
+    [
+     "Сколько занимает вывод с CS.MONEY?",
+     "Деньги от продаж на маркете удерживаются 7 дней, а перед первым выводом нужно пройти KYC. После этого средства выводятся на карту (в основном Visa), если такой способ доступен в вашей стране."
+    ],
+    [
+     "CS.MONEY — это надёжный сайт?",
+     "CS.MONEY работает с 2016 года, оператор — CS Virtual Trade Ltd. (Кипр). Как и на любом сайте со скинами, обменивайтесь только через официальный домен cs.money и подтверждайте обмены в мобильном приложении Steam."
+    ]
    ]
   },
   "title": {
@@ -248,14 +285,16 @@
    "pl": "CS.MONEY — opinie i kod promocyjny {month} {year}: prowizje, rynek, wypłaty",
    "tr": "CS.MONEY İnceleme ve Promosyon {month} {year}: Komisyon, Market, Çekim",
    "pt-br": "CS.MONEY: Review e Código {month} {year} — Taxas, Market, Saque",
-   "es": "CS.MONEY: Opiniones y Código {month} {year} — Comisiones, Market, Retiros"
+   "es": "CS.MONEY: Opiniones y Código {month} {year} — Comisiones, Market, Retiros",
+   "ru": "CS.MONEY: отзывы и промокод — {month} {year}: комиссии, вывод"
   },
   "desc": {
    "en": "CS.MONEY in {month} {year}: how Trade, Market and Instant Sell work, 5% market fee (3% from $1,000), KYC and 7-day hold on withdrawals, and how to sign up via our link.",
    "pl": "CS.MONEY ({month} {year}): jak działają Trade, Market i Instant Sell, prowizja 5% (3% od 1000 $), KYC i 7-dniowa blokada wypłat oraz rejestracja przez nasz link.",
    "tr": "CS.MONEY ({month} {year}): Trade, Market ve Instant Sell nasıl çalışır, %5 pazar komisyonu (1000 $ üzeri %3), KYC ve 7 günlük çekim beklemesi, linkimizle kayıt.",
    "pt-br": "CS.MONEY em {month} {year}: como funcionam Trade, Market e Instant Sell, taxa de 5% (3% acima de US$ 1.000), KYC e retenção de 7 dias no saque, e cadastro pelo nosso link.",
-   "es": "CS.MONEY en {month} {year}: cómo funcionan Trade, Market e Instant Sell, comisión del 5% (3% desde 1.000 $), KYC y retención de 7 días en retiros, y registro con nuestro enlace."
+   "es": "CS.MONEY en {month} {year}: cómo funcionan Trade, Market e Instant Sell, comisión del 5% (3% desde 1.000 $), KYC y retención de 7 días en retiros, y registro con nuestro enlace.",
+   "ru": "CS.MONEY в {month} {year}: как работают Trade, Market и Instant Sell, комиссия маркета 5% (3% от $1000), KYC и удержание 7 дней при выводе, регистрация по нашей ссылке."
   }
  },
  {

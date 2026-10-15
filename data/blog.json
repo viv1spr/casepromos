@@ -1,7 +1,74 @@
 {
- "en": {"nav": "Blog", "title": "CS2 Skins Blog — Guides, Promo Codes & Site Reviews", "desc": "Articles about CS2 skin sites: trading tips, promo codes, withdrawals and comparisons of popular platforms.", "h1": "Blog", "intro": "Guides, comparisons and news about CS2 skin trading and case sites.", "read": "Read article", "published": "Published", "featured": "Sites from this article", "more": "More articles", "empty": "No articles yet."},
- "pl": {"nav": "Blog", "title": "Blog o skinach CS2 — poradniki, kody promocyjne i recenzje stron", "desc": "Artykuły o stronach ze skinami CS2: handel, kody promocyjne, wypłaty i porównania popularnych platform.", "h1": "Blog", "intro": "Poradniki, porównania i nowości o handlu skinami CS2 i stronach ze skrzynkami.", "read": "Czytaj artykuł", "published": "Opublikowano", "featured": "Strony z artykułu", "more": "Więcej artykułów", "empty": "Brak artykułów."},
- "tr": {"nav": "Blog", "title": "CS2 Skin Blogu — Rehberler, Promosyon Kodları ve Site İncelemeleri", "desc": "CS2 skin siteleri hakkında yazılar: takas ipuçları, promosyon kodları, para çekme ve popüler platform karşılaştırmaları.", "h1": "Blog", "intro": "CS2 skin takası ve kasa siteleri hakkında rehberler, karşılaştırmalar ve haberler.", "read": "Yazıyı oku", "published": "Yayınlandı", "featured": "Yazıdaki siteler", "more": "Diğer yazılar", "empty": "Henüz yazı yok."},
- "pt-br": {"nav": "Blog", "title": "Blog de Skins CS2 — Guias, Códigos Promocionais e Reviews", "desc": "Artigos sobre sites de skins CS2: dicas de trade, códigos promocionais, saques e comparações das plataformas populares.", "h1": "Blog", "intro": "Guias, comparações e novidades sobre trade de skins CS2 e sites de caixas.", "read": "Ler artigo", "published": "Publicado", "featured": "Sites deste artigo", "more": "Mais artigos", "empty": "Ainda não há artigos."},
- "es": {"nav": "Blog", "title": "Blog de Skins CS2 — Guías, Códigos Promocionales y Reseñas", "desc": "Artículos sobre webs de skins CS2: consejos de trading, códigos promocionales, retiros y comparativas de las plataformas populares.", "h1": "Blog", "intro": "Guías, comparativas y novedades sobre el trading de skins CS2 y las webs de cajas.", "read": "Leer artículo", "published": "Publicado", "featured": "Webs de este artículo", "more": "Más artículos", "empty": "Todavía no hay artículos."}
+ "en": {
+  "nav": "Blog",
+  "title": "CS2 Skins Blog — Guides, Promo Codes & Site Reviews",
+  "desc": "Articles about CS2 skin sites: trading tips, promo codes, withdrawals and comparisons of popular platforms.",
+  "h1": "Blog",
+  "intro": "Guides, comparisons and news about CS2 skin trading and case sites.",
+  "read": "Read article",
+  "published": "Published",
+  "featured": "Sites from this article",
+  "more": "More articles",
+  "empty": "No articles yet."
+ },
+ "ru": {
+  "nav": "Блог",
+  "title": "Блог о скинах CS2 — гайды, промокоды и обзоры сайтов",
+  "desc": "Статьи о сайтах со скинами CS2: советы по трейду, промокоды CS2, вывод денег и сравнение популярных площадок для обмена и продажи скинов.",
+  "h1": "Блог",
+  "intro": "Гайды, сравнения и новости о трейде скинов CS2 и сайтах с кейсами.",
+  "read": "Читать статью",
+  "published": "Опубликовано",
+  "featured": "Сайты из этой статьи",
+  "more": "Другие статьи",
+  "empty": "Статей пока нет."
+ },
+ "pl": {
+  "nav": "Blog",
+  "title": "Blog o skinach CS2 — poradniki, kody promocyjne i recenzje stron",
+  "desc": "Artykuły o stronach ze skinami CS2: handel, kody promocyjne, wypłaty i porównania popularnych platform.",
+  "h1": "Blog",
+  "intro": "Poradniki, porównania i nowości o handlu skinami CS2 i stronach ze skrzynkami.",
+  "read": "Czytaj artykuł",
+  "published": "Opublikowano",
+  "featured": "Strony z artykułu",
+  "more": "Więcej artykułów",
+  "empty": "Brak artykułów."
+ },
+ "tr": {
+  "nav": "Blog",
+  "title": "CS2 Skin Blogu — Rehberler, Promosyon Kodları ve Site İncelemeleri",
+  "desc": "CS2 skin siteleri hakkında yazılar: takas ipuçları, promosyon kodları, para çekme ve popüler platform karşılaştırmaları.",
+  "h1": "Blog",
+  "intro": "CS2 skin takası ve kasa siteleri hakkında rehberler, karşılaştırmalar ve haberler.",
+  "read": "Yazıyı oku",
+  "published": "Yayınlandı",
+  "featured": "Yazıdaki siteler",
+  "more": "Diğer yazılar",
+  "empty": "Henüz yazı yok."
+ },
+ "pt-br": {
+  "nav": "Blog",
+  "title": "Blog de Skins CS2 — Guias, Códigos Promocionais e Reviews",
+  "desc": "Artigos sobre sites de skins CS2: dicas de trade, códigos promocionais, saques e comparações das plataformas populares.",
+  "h1": "Blog",
+  "intro": "Guias, comparações e novidades sobre trade de skins CS2 e sites de caixas.",
+  "read": "Ler artigo",
+  "published": "Publicado",
+  "featured": "Sites deste artigo",
+  "more": "Mais artigos",
+  "empty": "Ainda não há artigos."
+ },
+ "es": {
+  "nav": "Blog",
+  "title": "Blog de Skins CS2 — Guías, Códigos Promocionales y Reseñas",
+  "desc": "Artículos sobre webs de skins CS2: consejos de trading, códigos promocionales, retiros y comparativas de las plataformas populares.",
+  "h1": "Blog",
+  "intro": "Guías, comparativas y novedades sobre el trading de skins CS2 y las webs de cajas.",
+  "read": "Leer artículo",
+  "published": "Publicado",
+  "featured": "Webs de este artículo",
+  "more": "Más artículos",
+  "empty": "Todavía no hay artículos."
+ }
 }

@@ -20,6 +20,12 @@
       t.select(); try { document.execCommand("copy"); } catch (e) {} t.remove(); done(); }
   });
 
+  // mobile menu
+  var burger = document.getElementById("burger"), mnav = document.getElementById("mainnav");
+  if (burger && mnav) burger.addEventListener("click", function () {
+    var open = mnav.classList.toggle("open"); burger.setAttribute("aria-expanded", open ? "true" : "false");
+  });
+
   // close language dropdown on outside click
   document.addEventListener("click", function (ev) {
     document.querySelectorAll("details.langs[open]").forEach(function (d) { if (!d.contains(ev.target)) d.removeAttribute("open"); });
@@ -47,7 +53,7 @@
   }
 
   // keep active category tab visible in the scrollable nav
-  var onTab = document.querySelector(".tabs a.on"), tabs = document.querySelector(".tabs");
+  var onTab = document.querySelector(".cats a.on"), tabs = document.querySelector(".cats");
   if (onTab && tabs && tabs.scrollWidth > tabs.clientWidth) tabs.scrollLeft = onTab.offsetLeft - tabs.clientWidth / 2 + onTab.offsetWidth / 2;
 
   // copy promo code when the main CTA is pressed (page still opens)
