@@ -24,6 +24,10 @@ jobs:
           python-version: "3.12"
       - run: pip install markdown pyyaml
       - run: python build.py
+      - name: Cache-bust assets
+        run: |
+          V=${GITHUB_SHA::8}
+          find dist -name '*.html' -exec sed -i -E "s#(assets/(style\.css|app\.js))\"#\1?v=$V\"#g" {} +
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
