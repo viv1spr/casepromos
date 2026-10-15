@@ -852,6 +852,8 @@ def render_body(post, lang, page):
 
 def cover_url(post):
     c = post.get("cover")
+    if not c and (ROOT / "static" / "blog" / f'{post["slug"]}.svg').exists():
+        c = f'assets/blog/{post["slug"]}.svg'
     if not c:
         return None
     return c if c.startswith("http") else BASE_URL + "/" + c.lstrip("/")
@@ -920,7 +922,7 @@ def build_post(lang, post):
   {more}
 </main>
 {footer(lang, page)}'''
-    write(page, head(lang, page, title, desc, alts, ld_tags(art, breadcrumb_ld(crumbs)), img=c) + body)
+    write(page, head(lang, page, title, desc, alts, ld_tags(art, breadcrumb_ld(crumbs)), img=c if c and not c.endswith(".svg") else None) + body)
     return page, alts
 
 
