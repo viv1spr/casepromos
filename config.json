@@ -1,0 +1,13 @@
+{
+  "site_url": "https://casepromos.com",
+  "brand": "CaseHub",
+  "languages": [
+    "en",
+    "pl",
+    "tr",
+    "pt-br",
+    "es"
+  ],
+  "default_language": "en",
+  "updated": "2026-10"
+}

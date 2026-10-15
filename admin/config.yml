@@ -1,0 +1,45 @@
+# CaseHub admin (Sveltia CMS). Sign in with a GitHub token.
+backend:
+  name: github
+  repo: viv1spr/casepromos
+  branch: main
+
+site_url: https://casepromos.com
+display_url: https://casepromos.com
+media_folder: static/uploads
+public_folder: /assets/uploads
+
+i18n:
+  structure: multiple_folders
+  locales: [en, pl, tr, pt-br, es]
+  default_locale: en
+
+collections:
+  - name: blog
+    label: Blog
+    label_singular: Article
+    folder: content/blog
+    create: true
+    i18n: true
+    slug: "{{slug}}"
+    summary: "{{title}} — {{date}}"
+    sortable_fields: [date, title]
+    fields:
+      - {label: Title, name: title, widget: string, i18n: true}
+      - {label: "SEO title (optional, for Google)", name: seo_title, widget: string, required: false, i18n: true}
+      - {label: "Short description (for Google, 140-160 chars)", name: description, widget: text, i18n: true}
+      - {label: Date, name: date, widget: datetime, time_format: false, date_format: "YYYY-MM-DD", format: "YYYY-MM-DD", i18n: duplicate}
+      - {label: "Cover image (1200x630)", name: cover, widget: image, required: false, i18n: duplicate}
+      - label: Sites shown under the article
+        name: sites
+        widget: select
+        multiple: true
+        required: false
+        i18n: duplicate
+        options: [cs-money, clash, skinrave, csgoempire, hellcase, key-drop, farmskins, opcases, datdrop, csgofast, tradeit, skinswap, waxpeer, dmarket, lis-skins]
+      - {label: "Draft (hidden from site)", name: draft, widget: boolean, default: false, required: false, i18n: duplicate}
+      - label: Text
+        name: body
+        widget: markdown
+        i18n: true
+        hint: "To insert a site card with the bonus button, put on its own line: {{site:cs-money}} (any slug from the Sites list)."

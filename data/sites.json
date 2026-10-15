@@ -1,0 +1,853 @@
+[
+ {
+  "slug": "cs-money",
+  "name": "CS.MONEY",
+  "domain": "cs.money",
+  "type": "bot",
+  "order": 0,
+  "color": "#ec4899",
+  "logo": "",
+  "ref_link": "https://cs.money/r/viv1stop",
+  "promo_code": "",
+  "license": "",
+  "seller_fee": "5%",
+  "buyer_fee": "0%",
+  "min_deposit": "$1",
+  "payments": [],
+  "features": [
+   "card",
+   "paypal",
+   "crypto",
+   "low_min"
+  ],
+  "langs": [],
+  "modes": [
+   "bot_trade",
+   "marketplace",
+   "instant_sell"
+  ],
+  "deposit": [
+   "skins",
+   "card",
+   "paypal",
+   "crypto"
+  ],
+  "withdraw": [
+   "skins",
+   "card"
+  ],
+  "notes": [
+   "kyc",
+   "balance_lock7",
+   "visa_only"
+  ],
+  "founded": "2016",
+  "games": [
+   "cs2"
+  ],
+  "bonus": {},
+  "short": {
+   "en": "Trade bot, P2P market and instant sell for CS2 skins in one place.",
+   "pl": "Bot do wymiany, rynek P2P i szybka sprzedaż skinów CS2 w jednym miejscu.",
+   "tr": "CS2 skinleri için takas botu, P2P pazar ve anında satış tek yerde.",
+   "pt-br": "Bot de trade, marketplace P2P e venda instantânea de skins CS2 num só lugar.",
+   "es": "Bot de intercambio, mercado P2P y venta instantánea de skins CS2 en un solo sitio."
+  },
+  "about": {
+   "en": [
+    "CS.MONEY has been running since 2016 and is one of the best-known CS2 skin trading services. It combines three modes: Trade (instant swaps with the site's bots), Market (buying and selling with other players) and Instant Sell (selling a skin for balance without waiting for a buyer). The site is operated by CS Virtual Trade Ltd. (Cyprus)."
+   ],
+   "pl": [
+    "CS.MONEY działa od 2016 roku i jest jednym z najbardziej znanych serwisów do handlu skinami CS2. Łączy trzy tryby: Trade (natychmiastowa wymiana z botami), Market (kupno i sprzedaż z innymi graczami) oraz Instant Sell (sprzedaż skina za saldo bez czekania na kupującego). Operatorem jest CS Virtual Trade Ltd. (Cypr)."
+   ],
+   "tr": [
+    "CS.MONEY 2016'dan beri çalışıyor ve en bilinen CS2 skin takas servislerinden biri. Üç modu bir arada sunar: Trade (sitenin botlarıyla anında takas), Market (diğer oyuncularla alım-satım) ve Instant Sell (alıcı beklemeden skini bakiyeye satma). Siteyi CS Virtual Trade Ltd. (Kıbrıs) işletir."
+   ],
+   "pt-br": [
+    "O CS.MONEY funciona desde 2016 e é um dos serviços de trade de skins CS2 mais conhecidos. Ele reúne três modos: Trade (troca instantânea com os bots do site), Market (compra e venda com outros jogadores) e Instant Sell (vender a skin por saldo sem esperar comprador). O operador é a CS Virtual Trade Ltd. (Chipre)."
+   ],
+   "es": [
+    "CS.MONEY funciona desde 2016 y es uno de los servicios de trading de skins CS2 más conocidos. Reúne tres modos: Trade (intercambio instantáneo con los bots de la web), Market (comprar y vender con otros jugadores) e Instant Sell (vender la skin por saldo sin esperar comprador). La opera CS Virtual Trade Ltd. (Chipre)."
+   ]
+  },
+  "pros": {
+   "en": [
+    "Three modes in one account: trade bot, P2P market and instant sell",
+    "Market seller fee 5%, only 3% on items from $1,000"
+   ],
+   "pl": [
+    "Trzy tryby na jednym koncie: bot, rynek P2P i szybka sprzedaż",
+    "Prowizja sprzedającego na rynku 5%, tylko 3% od przedmiotów od 1000 $"
+   ],
+   "tr": [
+    "Tek hesapta üç mod: takas botu, P2P pazar ve anında satış",
+    "Pazarda satıcı komisyonu %5, 1000 $ üzeri eşyalarda sadece %3"
+   ],
+   "pt-br": [
+    "Três modos numa conta: bot de trade, marketplace P2P e venda instantânea",
+    "Taxa de venda no Market de 5%, só 3% em itens a partir de US$ 1.000"
+   ],
+   "es": [
+    "Tres modos en una cuenta: bot de intercambio, mercado P2P y venta instantánea",
+    "Comisión de venta en el Market del 5%, solo 3% en objetos desde 1.000 $"
+   ]
+  },
+  "cons": {
+   "en": [
+    "Trade-mode prices include the site's margin, so swaps cost more than on a P2P market"
+   ],
+   "pl": [
+    "Ceny w trybie Trade zawierają marżę serwisu, więc wymiana kosztuje więcej niż na rynku P2P"
+   ],
+   "tr": [
+    "Trade modunda fiyatlara sitenin marjı dahildir, takas P2P pazardan pahalıya gelir"
+   ],
+   "pt-br": [
+    "Os preços no modo Trade incluem a margem do site, então trocar sai mais caro que no P2P"
+   ],
+   "es": [
+    "Los precios del modo Trade incluyen el margen de la web, así que cambiar sale más caro que en un mercado P2P"
+   ]
+  },
+  "seo": {
+   "en": [
+    "## How to use CS.MONEY: Trade, Market and Instant Sell",
+    "Trade mode is for swapping: you put your skins on one side, pick skins from the bots on the other, and the trade goes through instantly. The site's commission is built into item prices, so an equal-value swap has no separate fee.",
+    "Market mode works like a classic P2P marketplace. Sellers pay 5% (3% for items priced from $1,000), buyers pay no fee, and listings from other players are often cheaper than in Trade mode.",
+    "Instant Sell lets you sell a skin for balance right away when you don't want to wait for a buyer — handy, but usually a bit cheaper than a Market sale.",
+    "## Cashing out from CS.MONEY",
+    "- Identity verification (KYC) is requested before the first withdrawal.",
+    "- Money from Market sales is held for 7 days before it can be withdrawn.",
+    "- Card withdrawals mainly go to Visa and are not available in every country — check the cashout page for your region before selling.",
+    "## CS.MONEY vs other sites",
+    "If you only want the best price when selling, compare the Market price with P2P sites like Waxpeer or DMarket. If you want a fast swap from a big inventory, CS.MONEY's Trade mode is one of the most convenient options."
+   ],
+   "pl": [
+    "## Jak korzystać z CS.MONEY: Trade, Market i Instant Sell",
+    "Tryb Trade służy do wymiany: po jednej stronie dajesz swoje skiny, po drugiej wybierasz skiny z botów i wymiana przechodzi od razu. Prowizja serwisu jest wliczona w ceny, więc wymiana o równej wartości nie ma osobnej opłaty.",
+    "Market działa jak klasyczny rynek P2P. Sprzedający płaci 5% (3% przy przedmiotach od 1000 $), kupujący nie płaci prowizji, a oferty innych graczy są często tańsze niż w trybie Trade.",
+    "Instant Sell pozwala od razu sprzedać skina za saldo, gdy nie chcesz czekać na kupującego — wygodne, ale zwykle trochę taniej niż na Markecie.",
+    "## Wypłata z CS.MONEY",
+    "- Przed pierwszą wypłatą wymagana jest weryfikacja tożsamości (KYC).",
+    "- Pieniądze ze sprzedaży na Markecie są blokowane na 7 dni.",
+    "- Wypłaty na kartę trafiają głównie na Visę i nie działają w każdym kraju — sprawdź stronę wypłat dla swojego regionu przed sprzedażą.",
+    "## CS.MONEY a inne strony",
+    "Jeśli zależy ci tylko na najlepszej cenie przy sprzedaży, porównaj cenę na Markecie z rynkami P2P, takimi jak Waxpeer czy DMarket. Jeśli chcesz szybkiej wymiany z dużego ekwipunku, tryb Trade w CS.MONEY to jedna z najwygodniejszych opcji."
+   ],
+   "tr": [
+    "## CS.MONEY nasıl kullanılır: Trade, Market ve Instant Sell",
+    "Trade modu takas içindir: bir tarafa kendi skinlerinizi koyar, diğer taraftan botların skinlerini seçersiniz ve takas anında gerçekleşir. Sitenin komisyonu fiyatlara dahildir, bu yüzden eşit değerli takasta ayrıca ücret yoktur.",
+    "Market modu klasik bir P2P pazar gibi çalışır. Satıcı %5 öder (1000 $ ve üzeri eşyalarda %3), alıcı komisyon ödemez; diğer oyuncuların ilanları çoğu zaman Trade modundan ucuzdur.",
+    "Instant Sell, alıcı beklemek istemediğinizde skini hemen bakiyeye satmanızı sağlar — pratiktir ama genelde Market satışından biraz daha ucuzdur.",
+    "## CS.MONEY'den para çekme",
+    "- İlk çekimden önce kimlik doğrulama (KYC) istenir.",
+    "- Market satışlarından gelen para 7 gün bekletilir.",
+    "- Karta çekim çoğunlukla Visa'ya yapılır ve her ülkede yoktur — satmadan önce bölgeniz için çekim sayfasını kontrol edin.",
+    "## CS.MONEY ve diğer siteler",
+    "Sadece satışta en iyi fiyatı istiyorsanız Market fiyatını Waxpeer veya DMarket gibi P2P sitelerle karşılaştırın. Büyük envanterden hızlı takas istiyorsanız CS.MONEY Trade modu en rahat seçeneklerden biridir."
+   ],
+   "pt-br": [
+    "## Como usar o CS.MONEY: Trade, Market e Instant Sell",
+    "O modo Trade serve para trocar: de um lado você coloca suas skins, do outro escolhe skins dos bots, e a troca acontece na hora. A comissão do site já está no preço dos itens, então uma troca de mesmo valor não tem taxa separada.",
+    "O Market funciona como um marketplace P2P clássico. O vendedor paga 5% (3% em itens a partir de US$ 1.000), o comprador não paga taxa, e os anúncios de outros jogadores costumam ser mais baratos que no modo Trade.",
+    "O Instant Sell permite vender a skin por saldo na hora, sem esperar comprador — prático, mas geralmente um pouco mais barato que vender no Market.",
+    "## Sacar do CS.MONEY",
+    "- A verificação de identidade (KYC) é pedida antes do primeiro saque.",
+    "- O dinheiro das vendas no Market fica retido por 7 dias.",
+    "- Saques para cartão vão principalmente para Visa e não estão disponíveis em todos os países — confira a página de saque da sua região antes de vender.",
+    "## CS.MONEY vs outros sites",
+    "Se você quer só o melhor preço na venda, compare o preço do Market com sites P2P como Waxpeer ou DMarket. Se quer uma troca rápida num inventário grande, o modo Trade do CS.MONEY é uma das opções mais práticas."
+   ],
+   "es": [
+    "## Cómo usar CS.MONEY: Trade, Market e Instant Sell",
+    "El modo Trade sirve para intercambiar: en un lado pones tus skins, en el otro eliges skins de los bots y el intercambio se hace al instante. La comisión de la web va incluida en el precio, así que un cambio de igual valor no tiene tarifa aparte.",
+    "El Market funciona como un mercado P2P clásico. El vendedor paga un 5% (3% en objetos desde 1.000 $), el comprador no paga comisión y las ofertas de otros jugadores suelen ser más baratas que en el modo Trade.",
+    "Instant Sell te deja vender la skin por saldo al momento, sin esperar comprador — cómodo, pero normalmente algo más barato que vender en el Market.",
+    "## Retirar dinero de CS.MONEY",
+    "- Se pide verificación de identidad (KYC) antes del primer retiro.",
+    "- El dinero de las ventas en el Market se retiene 7 días.",
+    "- Los retiros a tarjeta van sobre todo a Visa y no están disponibles en todos los países — revisa la página de retiros de tu región antes de vender.",
+    "## CS.MONEY frente a otras webs",
+    "Si solo buscas el mejor precio al vender, compara el precio del Market con webs P2P como Waxpeer o DMarket. Si quieres un cambio rápido desde un inventario grande, el modo Trade de CS.MONEY es de las opciones más cómodas."
+   ]
+  },
+  "faq": {
+   "en": [
+    [
+     "What is the CS.MONEY market fee?",
+     "Sellers pay 5% on the Market (3% for items from $1,000); buyers pay no fee. In Trade mode the commission is built into item prices."
+    ],
+    [
+     "How long does a CS.MONEY withdrawal take?",
+     "Money from Market sales is held for 7 days, and KYC is required before the first cashout. After that, withdrawals go to a card (mainly Visa) where it's available in your country."
+    ],
+    [
+     "Is CS.MONEY legit?",
+     "CS.MONEY has operated since 2016 and is run by CS Virtual Trade Ltd. in Cyprus. As with any skin site, trade only through the official domain cs.money and confirm trades in the Steam mobile app."
+    ]
+   ],
+   "pl": [
+    [
+     "Jaka jest prowizja na rynku CS.MONEY?",
+     "Sprzedający płaci 5% (3% przy przedmiotach od 1000 $), kupujący nie płaci prowizji. W trybie Trade prowizja jest wliczona w ceny."
+    ],
+    [
+     "Ile trwa wypłata z CS.MONEY?",
+     "Pieniądze ze sprzedaży na Markecie są blokowane na 7 dni, a przed pierwszą wypłatą wymagane jest KYC. Potem wypłata idzie na kartę (głównie Visa), jeśli jest dostępna w twoim kraju."
+    ],
+    [
+     "Czy CS.MONEY jest legalne i bezpieczne?",
+     "CS.MONEY działa od 2016 roku, operatorem jest CS Virtual Trade Ltd. z Cypru. Jak na każdej stronie ze skinami, korzystaj tylko z oficjalnej domeny cs.money i potwierdzaj wymiany w aplikacji Steam."
+    ]
+   ],
+   "tr": [
+    [
+     "CS.MONEY pazar komisyonu ne kadar?",
+     "Satıcı %5 öder (1000 $ ve üzeri eşyalarda %3), alıcı komisyon ödemez. Trade modunda komisyon fiyatlara dahildir."
+    ],
+    [
+     "CS.MONEY'den çekim ne kadar sürer?",
+     "Market satışlarından gelen para 7 gün bekletilir ve ilk çekimden önce KYC gerekir. Sonrasında çekim, ülkenizde mevcutsa karta (çoğunlukla Visa) yapılır."
+    ],
+    [
+     "CS.MONEY güvenilir mi?",
+     "CS.MONEY 2016'dan beri çalışıyor ve Kıbrıs'taki CS Virtual Trade Ltd. tarafından işletiliyor. Her skin sitesinde olduğu gibi yalnızca resmi cs.money alan adını kullanın ve takasları Steam mobil uygulamasından onaylayın."
+    ]
+   ],
+   "pt-br": [
+    [
+     "Qual a taxa do Market do CS.MONEY?",
+     "O vendedor paga 5% (3% em itens a partir de US$ 1.000); o comprador não paga taxa. No modo Trade a comissão já está no preço."
+    ],
+    [
+     "Quanto tempo demora o saque no CS.MONEY?",
+     "O dinheiro das vendas no Market fica retido por 7 dias e é preciso KYC antes do primeiro saque. Depois, o saque vai para cartão (principalmente Visa), se disponível no seu país."
+    ],
+    [
+     "O CS.MONEY é confiável?",
+     "O CS.MONEY funciona desde 2016 e é operado pela CS Virtual Trade Ltd., do Chipre. Como em qualquer site de skins, use só o domínio oficial cs.money e confirme as trocas no app da Steam."
+    ]
+   ],
+   "es": [
+    [
+     "¿Cuál es la comisión del Market de CS.MONEY?",
+     "El vendedor paga un 5% (3% en objetos desde 1.000 $); el comprador no paga comisión. En el modo Trade la comisión va incluida en el precio."
+    ],
+    [
+     "¿Cuánto tarda un retiro en CS.MONEY?",
+     "El dinero de las ventas en el Market se retiene 7 días y se pide KYC antes del primer retiro. Después, el retiro va a tarjeta (sobre todo Visa), si está disponible en tu país."
+    ],
+    [
+     "¿CS.MONEY es fiable?",
+     "CS.MONEY funciona desde 2016 y lo opera CS Virtual Trade Ltd., de Chipre. Como en cualquier web de skins, usa solo el dominio oficial cs.money y confirma los intercambios en la app de Steam."
+    ]
+   ]
+  },
+  "title": {
+   "en": "CS.MONEY Review & Promo {month} {year}: Fees, Market, Cashout",
+   "pl": "CS.MONEY — opinie i kod promocyjny {month} {year}: prowizje, rynek, wypłaty",
+   "tr": "CS.MONEY İnceleme ve Promosyon {month} {year}: Komisyon, Market, Çekim",
+   "pt-br": "CS.MONEY: Review e Código {month} {year} — Taxas, Market, Saque",
+   "es": "CS.MONEY: Opiniones y Código {month} {year} — Comisiones, Market, Retiros"
+  },
+  "desc": {
+   "en": "CS.MONEY in {month} {year}: how Trade, Market and Instant Sell work, 5% market fee (3% from $1,000), KYC and 7-day hold on withdrawals, and how to sign up via our link.",
+   "pl": "CS.MONEY ({month} {year}): jak działają Trade, Market i Instant Sell, prowizja 5% (3% od 1000 $), KYC i 7-dniowa blokada wypłat oraz rejestracja przez nasz link.",
+   "tr": "CS.MONEY ({month} {year}): Trade, Market ve Instant Sell nasıl çalışır, %5 pazar komisyonu (1000 $ üzeri %3), KYC ve 7 günlük çekim beklemesi, linkimizle kayıt.",
+   "pt-br": "CS.MONEY em {month} {year}: como funcionam Trade, Market e Instant Sell, taxa de 5% (3% acima de US$ 1.000), KYC e retenção de 7 dias no saque, e cadastro pelo nosso link.",
+   "es": "CS.MONEY en {month} {year}: cómo funcionan Trade, Market e Instant Sell, comisión del 5% (3% desde 1.000 $), KYC y retención de 7 días en retiros, y registro con nuestro enlace."
+  }
+ },
+ {
+  "slug": "clash",
+  "name": "Clash.gg",
+  "domain": "clash.gg",
+  "type": "cases",
+  "order": 1,
+  "color": "#f97316",
+  "logo": "",
+  "ref_link": "https://clash.gg/r/EZBOX",
+  "promo_code": "EZBOX",
+  "license": "",
+  "seller_fee": "—",
+  "buyer_fee": "—",
+  "min_deposit": "—",
+  "payments": [],
+  "features": [
+   "crypto"
+  ],
+  "langs": [],
+  "bonus": {},
+  "short": {},
+  "about": {},
+  "pros": {},
+  "cons": {},
+  "modes": [
+   "cases",
+   "battles",
+   "roulette"
+  ],
+  "deposit": [
+   "crypto",
+   "other"
+  ],
+  "withdraw": [
+   "crypto",
+   "physical",
+   "cash"
+  ],
+  "notes": [],
+  "founded": "",
+  "games": [
+   "cs2"
+  ]
+ },
+ {
+  "slug": "skinrave",
+  "name": "SkinRave",
+  "domain": "skinrave.gg",
+  "type": "cases",
+  "order": 2,
+  "color": "#a855f7",
+  "logo": "",
+  "ref_link": "https://skinrave.gg/en?r=ezbox",
+  "promo_code": "ezbox",
+  "license": "",
+  "seller_fee": "—",
+  "buyer_fee": "—",
+  "min_deposit": "—",
+  "payments": [],
+  "features": [
+   "crypto"
+  ],
+  "langs": [],
+  "bonus": {},
+  "short": {},
+  "about": {},
+  "pros": {},
+  "cons": {},
+  "modes": [
+   "cases",
+   "battles",
+   "crash",
+   "roulette",
+   "plinko",
+   "mines",
+   "blackjack"
+  ],
+  "deposit": [
+   "skins",
+   "crypto"
+  ],
+  "withdraw": [
+   "skins",
+   "crypto"
+  ],
+  "notes": [],
+  "founded": "",
+  "games": [
+   "cs2"
+  ]
+ },
+ {
+  "slug": "csgoempire",
+  "name": "CSGOEmpire",
+  "domain": "csgoempire.com",
+  "type": "roulette",
+  "order": 3,
+  "color": "#f59e0b",
+  "logo": "",
+  "ref_link": "https://csgoempire.com/r/easybox",
+  "promo_code": "easybox",
+  "license": "Curaçao",
+  "seller_fee": "—",
+  "buyer_fee": "—",
+  "min_deposit": "—",
+  "payments": [],
+  "features": [
+   "crypto"
+  ],
+  "langs": [],
+  "bonus": {},
+  "short": {},
+  "about": {},
+  "pros": {},
+  "cons": {},
+  "modes": [
+   "roulette",
+   "coinflip",
+   "battles",
+   "esports"
+  ],
+  "deposit": [
+   "skins",
+   "crypto"
+  ],
+  "withdraw": [
+   "skins",
+   "crypto"
+  ],
+  "notes": [
+   "provably_fair",
+   "p2p_market"
+  ],
+  "founded": "",
+  "games": [
+   "cs2"
+  ]
+ },
+ {
+  "slug": "hellcase",
+  "name": "Hellcase",
+  "domain": "hellcase.com",
+  "type": "cases",
+  "order": 4,
+  "color": "#ef4444",
+  "logo": "",
+  "ref_link": "https://hellpromo.com/feasybox",
+  "promo_code": "",
+  "license": "",
+  "seller_fee": "—",
+  "buyer_fee": "—",
+  "min_deposit": "—",
+  "payments": [],
+  "features": [],
+  "langs": [],
+  "bonus": {},
+  "short": {},
+  "about": {},
+  "pros": {},
+  "cons": {},
+  "modes": [
+   "cases",
+   "battles",
+   "upgrader"
+  ],
+  "deposit": [
+   "skins"
+  ],
+  "withdraw": [
+   "skins"
+  ],
+  "notes": [],
+  "founded": "",
+  "games": [
+   "cs2",
+   "dota2",
+   "rust"
+  ]
+ },
+ {
+  "slug": "key-drop",
+  "name": "Key-Drop",
+  "domain": "key-drop.com",
+  "type": "cases",
+  "order": 5,
+  "color": "#f43f5e",
+  "logo": "",
+  "ref_link": "https://kd.link/?code=EASYBOX",
+  "promo_code": "EASYBOX",
+  "license": "",
+  "seller_fee": "—",
+  "buyer_fee": "—",
+  "min_deposit": "—",
+  "payments": [],
+  "features": [],
+  "langs": [],
+  "bonus": {},
+  "short": {},
+  "about": {},
+  "pros": {},
+  "cons": {},
+  "modes": [
+   "cases",
+   "battles",
+   "upgrader"
+  ],
+  "deposit": [
+   "skins"
+  ],
+  "withdraw": [
+   "skins"
+  ],
+  "notes": [],
+  "founded": "",
+  "games": [
+   "cs2"
+  ]
+ },
+ {
+  "slug": "farmskins",
+  "name": "Farmskins",
+  "domain": "farmskins.com",
+  "type": "cases",
+  "order": 6,
+  "color": "#84cc16",
+  "logo": "",
+  "ref_link": "https://farmskins.com/ref-easybox1",
+  "promo_code": "",
+  "license": "",
+  "seller_fee": "—",
+  "buyer_fee": "—",
+  "min_deposit": "—",
+  "payments": [],
+  "features": [],
+  "langs": [],
+  "bonus": {},
+  "short": {},
+  "about": {},
+  "pros": {},
+  "cons": {},
+  "modes": [
+   "cases",
+   "battles",
+   "upgrader",
+   "contracts"
+  ],
+  "deposit": [],
+  "withdraw": [],
+  "notes": [],
+  "founded": "",
+  "games": [
+   "cs2"
+  ]
+ },
+ {
+  "slug": "opcases",
+  "name": "OPCases",
+  "domain": "opcases.com",
+  "type": "cases",
+  "order": 7,
+  "color": "#8b5cf6",
+  "logo": "",
+  "ref_link": "https://opcases.com/r/easybox",
+  "promo_code": "easybox",
+  "license": "",
+  "seller_fee": "—",
+  "buyer_fee": "—",
+  "min_deposit": "—",
+  "payments": [],
+  "features": [],
+  "langs": [],
+  "bonus": {},
+  "short": {},
+  "about": {},
+  "pros": {},
+  "cons": {},
+  "modes": [
+   "cases",
+   "battles",
+   "upgrader"
+  ],
+  "deposit": [],
+  "withdraw": [],
+  "notes": [],
+  "founded": "",
+  "games": [
+   "cs2"
+  ]
+ },
+ {
+  "slug": "datdrop",
+  "name": "DatDrop",
+  "domain": "datdrop.com",
+  "type": "cases",
+  "order": 8,
+  "color": "#0ea5e9",
+  "logo": "",
+  "ref_link": "https://datdrop.com/p/3876117",
+  "promo_code": "",
+  "license": "",
+  "seller_fee": "—",
+  "buyer_fee": "—",
+  "min_deposit": "—",
+  "payments": [],
+  "features": [],
+  "langs": [],
+  "bonus": {},
+  "short": {},
+  "about": {},
+  "pros": {},
+  "cons": {},
+  "modes": [
+   "cases",
+   "battles"
+  ],
+  "deposit": [
+   "skins"
+  ],
+  "withdraw": [
+   "skins"
+  ],
+  "notes": [
+   "provably_fair"
+  ],
+  "founded": "",
+  "games": [
+   "cs2"
+  ]
+ },
+ {
+  "slug": "csgofast",
+  "name": "CSGOFast",
+  "domain": "csgofast.com",
+  "type": "roulette",
+  "order": 9,
+  "color": "#f97316",
+  "logo": "",
+  "ref_link": "https://csgofast.com?ref=easybox",
+  "promo_code": "easybox",
+  "license": "",
+  "seller_fee": "—",
+  "buyer_fee": "—",
+  "min_deposit": "—",
+  "payments": [],
+  "features": [],
+  "langs": [],
+  "bonus": {},
+  "short": {},
+  "about": {},
+  "pros": {},
+  "cons": {},
+  "modes": [
+   "cases",
+   "battles",
+   "crash",
+   "roulette",
+   "jackpot",
+   "slots"
+  ],
+  "deposit": [
+   "skins"
+  ],
+  "withdraw": [
+   "skins"
+  ],
+  "notes": [],
+  "founded": "",
+  "games": [
+   "cs2"
+  ]
+ },
+ {
+  "slug": "tradeit",
+  "name": "Tradeit.gg",
+  "domain": "tradeit.gg",
+  "type": "bot",
+  "order": 10,
+  "color": "#22c55e",
+  "logo": "",
+  "ref_link": "https://tradeit.gg/?aff=easybox",
+  "promo_code": "",
+  "license": "",
+  "seller_fee": "—",
+  "buyer_fee": "—",
+  "min_deposit": "—",
+  "payments": [],
+  "features": [
+   "card",
+   "crypto"
+  ],
+  "langs": [],
+  "bonus": {},
+  "short": {},
+  "about": {},
+  "pros": {},
+  "cons": {},
+  "modes": [
+   "bot_trade"
+  ],
+  "deposit": [
+   "skins",
+   "crypto",
+   "card"
+  ],
+  "withdraw": [],
+  "notes": [
+   "spread",
+   "lootbear"
+  ],
+  "founded": "",
+  "games": [
+   "cs2",
+   "rust"
+  ]
+ },
+ {
+  "slug": "skinswap",
+  "name": "SkinSwap",
+  "domain": "skinswap.com",
+  "type": "bot",
+  "order": 11,
+  "color": "#6366f1",
+  "logo": "",
+  "ref_link": "https://skinswap.com/r/easybox",
+  "promo_code": "easybox",
+  "license": "",
+  "seller_fee": "—",
+  "buyer_fee": "—",
+  "min_deposit": "—",
+  "payments": [],
+  "features": [
+   "crypto"
+  ],
+  "langs": [],
+  "bonus": {},
+  "short": {},
+  "about": {},
+  "pros": {},
+  "cons": {},
+  "modes": [
+   "bot_trade",
+   "instant_sell"
+  ],
+  "deposit": [
+   "skins",
+   "crypto"
+  ],
+  "withdraw": [],
+  "notes": [
+   "spread"
+  ],
+  "founded": "",
+  "games": [
+   "cs2",
+   "rust"
+  ]
+ },
+ {
+  "slug": "waxpeer",
+  "name": "Waxpeer",
+  "domain": "waxpeer.com",
+  "type": "p2p",
+  "order": 12,
+  "color": "#f59e0b",
+  "logo": "",
+  "ref_link": "https://waxpeer.com/r/easybox",
+  "promo_code": "easybox",
+  "license": "",
+  "seller_fee": "6%",
+  "buyer_fee": "0%",
+  "min_deposit": "—",
+  "payments": [],
+  "features": [
+   "crypto",
+   "paypal"
+  ],
+  "langs": [],
+  "bonus": {},
+  "short": {},
+  "about": {},
+  "pros": {},
+  "cons": {},
+  "modes": [
+   "marketplace"
+  ],
+  "deposit": [
+   "paypal",
+   "crypto"
+  ],
+  "withdraw": [
+   "paypal",
+   "steam_balance"
+  ],
+  "notes": [
+   "delays"
+  ],
+  "founded": "",
+  "games": [
+   "cs2",
+   "dota2",
+   "rust"
+  ]
+ },
+ {
+  "slug": "dmarket",
+  "name": "DMarket",
+  "domain": "dmarket.com",
+  "type": "p2p",
+  "order": 13,
+  "color": "#a855f7",
+  "logo": "",
+  "ref_link": "https://dmarket.com?ref=L4QnfHPvxc",
+  "promo_code": "",
+  "license": "",
+  "seller_fee": "2%",
+  "buyer_fee": "0%",
+  "min_deposit": "—",
+  "payments": [],
+  "features": [
+   "crypto",
+   "paypal"
+  ],
+  "langs": [],
+  "bonus": {},
+  "short": {},
+  "about": {},
+  "pros": {},
+  "cons": {},
+  "modes": [
+   "marketplace",
+   "bot_trade"
+  ],
+  "deposit": [
+   "crypto",
+   "bank",
+   "paypal"
+  ],
+  "withdraw": [],
+  "notes": [
+   "balance_lock7"
+  ],
+  "founded": "",
+  "games": [
+   "cs2",
+   "dota2",
+   "rust"
+  ]
+ },
+ {
+  "slug": "lis-skins",
+  "name": "LIS-SKINS",
+  "domain": "lis-skins.com",
+  "type": "p2p",
+  "order": 14,
+  "color": "#06b6d4",
+  "logo": "",
+  "ref_link": "https://lis-skins.com/?rf=477323",
+  "promo_code": "",
+  "license": "",
+  "seller_fee": "5–6%",
+  "buyer_fee": "0%",
+  "min_deposit": "—",
+  "payments": [],
+  "features": [
+   "crypto"
+  ],
+  "langs": [],
+  "bonus": {},
+  "short": {},
+  "about": {},
+  "pros": {},
+  "cons": {},
+  "modes": [
+   "marketplace"
+  ],
+  "deposit": [
+   "crypto",
+   "local"
+  ],
+  "withdraw": [
+   "crypto"
+  ],
+  "notes": [
+   "fast_crypto"
+  ],
+  "founded": "",
+  "games": [
+   "cs2",
+   "dota2",
+   "rust"
+  ]
+ }
+]

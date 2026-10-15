@@ -1,0 +1,362 @@
+{
+ "en": {
+  "label": "Game",
+  "games_label": "Games",
+  "games_sent": "{name} supports items from: {list}.",
+  "names": {
+   "cs2": "CS2",
+   "rust": "Rust",
+   "dota2": "Dota 2"
+  },
+  "rust": {
+   "title": "Rust Promo Codes {month} {year} — Rust Skin Sites, Cases & Trading",
+   "desc": "Rust skin sites that accept Rust items: case opening, bot trading and P2P marketplaces. Working promo codes and referral bonuses, checked {month} {year}.",
+   "h1": "Rust skin sites & promo codes",
+   "intro": "Platforms from our catalog that support Rust skins — for opening cases, trading with bots or buying and selling on P2P markets. Each site also works with other games; the bonus and promo code are account-wide.",
+   "faq": [
+    [
+     "Where can I sell Rust skins for real money?",
+     "P2P marketplaces such as DMarket, Waxpeer and LIS-SKINS let you list Rust skins and withdraw the balance. Bot-trading sites (Tradeit, SkinSwap) buy instantly but usually pay a little less than a P2P sale."
+    ],
+    [
+     "Do CS2 promo codes work for Rust on the same site?",
+     "Usually yes: a promo code or referral bonus is tied to your account, not to one game. Always check the bonus terms on the site itself."
+    ],
+    [
+     "How do I trade Rust skins safely?",
+     "Turn on the Steam Guard Mobile Authenticator, only confirm trades you started yourself, check the bot's Steam level and name in the confirmation, and never log in to Steam through links from chats or DMs."
+    ]
+   ],
+   "seo": [
+    "## How Rust skin sites work",
+    "Rust items are regular Steam inventory items, so third-party sites can accept them through Steam trade offers. Some sites let you trade Rust skins for other Rust or CS2 items, others pay out the value as balance you can withdraw.",
+    "## Which type of site to choose",
+    "- P2P marketplace: best price when selling, but the sale can take some time.",
+    "- Bot trading: instant swap or sale from a large bot inventory, at a small spread.",
+    "- Case sites: entertainment for 18+ only — treat it as spending, not as income.",
+    "## Tips before you deposit Rust items",
+    "- Compare the price offered for the same skin on two or three sites.",
+    "- Check withdrawal methods and minimum amounts before depositing.",
+    "- Keep your Steam API key private; revoke it if you shared it by mistake."
+   ]
+  },
+  "dota2": {
+   "title": "Dota 2 Promo Codes {month} {year} — Dota 2 Item Sites, Cases & Trading",
+   "desc": "Sites that accept Dota 2 items: P2P marketplaces and case opening. Working promo codes and referral bonuses, checked {month} {year}.",
+   "h1": "Dota 2 item sites & promo codes",
+   "intro": "Platforms from our catalog that support Dota 2 items — for buying, selling or opening cases. The bonus and promo code apply to your account on each site.",
+   "faq": [
+    [
+     "Where can I sell Dota 2 items?",
+     "P2P marketplaces such as DMarket, Waxpeer and LIS-SKINS list Dota 2 items and let you withdraw your balance. Compare fees and withdrawal methods before you sell."
+    ],
+    [
+     "Do promo codes work for Dota 2 items too?",
+     "On multi-game sites a promo code or referral bonus is linked to your account, so it normally applies whatever game you trade. Check the terms on the site."
+    ],
+    [
+     "How do I avoid scams when trading Dota 2 items?",
+     "Use the Steam Guard Mobile Authenticator, confirm only trades you started, verify the trade partner in the confirmation screen, and ignore 'free item' links in Steam chat or Discord."
+    ]
+   ],
+   "seo": [
+    "## Selling and buying Dota 2 items outside the Steam Market",
+    "Steam Market balance cannot be withdrawn as cash. Third-party P2P marketplaces let players sell Dota 2 items to each other and withdraw the money, usually for a seller fee of a few percent.",
+    "## What to compare",
+    "- Seller and buyer fees.",
+    "- Withdrawal methods: card, crypto or e-wallets.",
+    "- How fast the item is delivered and whether a trade hold applies.",
+    "## Case opening with Dota 2 items",
+    "Some case sites also offer Dota 2 cases. This is gambling for 18+ only: set a budget and do not chase losses."
+   ]
+  }
+ },
+ "pl": {
+  "label": "Gra",
+  "games_label": "Gry",
+  "games_sent": "{name} obsługuje przedmioty z gier: {list}.",
+  "names": {
+   "cs2": "CS2",
+   "rust": "Rust",
+   "dota2": "Dota 2"
+  },
+  "rust": {
+   "title": "Kody promocyjne Rust {month} {year} — strony ze skinami Rust, skrzynki i handel",
+   "desc": "Strony obsługujące skiny Rust: skrzynki, handel z botami i rynki P2P. Działające kody promocyjne i bonusy, sprawdzone: {month} {year}.",
+   "h1": "Strony ze skinami Rust i kody promocyjne",
+   "intro": "Platformy z naszego katalogu, które obsługują skiny Rust — do otwierania skrzynek, wymiany z botami lub kupna i sprzedaży na rynkach P2P. Bonus i kod działają na całe konto.",
+   "faq": [
+    [
+     "Gdzie sprzedać skiny Rust za prawdziwe pieniądze?",
+     "Rynki P2P, takie jak DMarket, Waxpeer i LIS-SKINS, pozwalają wystawić skiny Rust i wypłacić saldo. Strony z botami (Tradeit, SkinSwap) kupują od razu, ale zwykle płacą trochę mniej."
+    ],
+    [
+     "Czy kod promocyjny z CS2 działa też dla Rust na tej samej stronie?",
+     "Zwykle tak: kod lub bonus polecający jest przypisany do konta, a nie do jednej gry. Zawsze sprawdź warunki bonusu na stronie."
+    ],
+    [
+     "Jak bezpiecznie handlować skinami Rust?",
+     "Włącz mobilny Steam Guard, potwierdzaj tylko wymiany rozpoczęte przez siebie, sprawdzaj nazwę i poziom bota w potwierdzeniu i nigdy nie loguj się do Steam przez linki z czatów."
+    ]
+   ],
+   "seo": [
+    "## Jak działają strony ze skinami Rust",
+    "Przedmioty z Rust to zwykłe przedmioty w ekwipunku Steam, więc strony zewnętrzne mogą je przyjmować przez oferty wymiany. Część stron wymienia skiny na inne przedmioty Rust lub CS2, inne wypłacają wartość jako saldo.",
+    "## Jaki typ strony wybrać",
+    "- Rynek P2P: najlepsza cena przy sprzedaży, ale sprzedaż może potrwać.",
+    "- Handel z botami: natychmiastowa wymiana lub sprzedaż z niewielką różnicą ceny.",
+    "- Strony ze skrzynkami: rozrywka tylko 18+ — traktuj to jako wydatek, nie zarobek.",
+    "## Zanim wpłacisz przedmioty Rust",
+    "- Porównaj cenę tego samego skina na dwóch–trzech stronach.",
+    "- Sprawdź metody i minimalne kwoty wypłat.",
+    "- Nie udostępniaj klucza Steam API; jeśli to zrobiłeś, unieważnij go."
+   ]
+  },
+  "dota2": {
+   "title": "Kody promocyjne Dota 2 {month} {year} — strony z przedmiotami Dota 2, skrzynki i handel",
+   "desc": "Strony obsługujące przedmioty Dota 2: rynki P2P i skrzynki. Działające kody promocyjne i bonusy, sprawdzone: {month} {year}.",
+   "h1": "Strony z przedmiotami Dota 2 i kody promocyjne",
+   "intro": "Platformy z naszego katalogu, które obsługują przedmioty Dota 2 — do kupna, sprzedaży lub otwierania skrzynek. Bonus i kod działają na całe konto.",
+   "faq": [
+    [
+     "Gdzie sprzedać przedmioty Dota 2?",
+     "Rynki P2P, takie jak DMarket, Waxpeer i LIS-SKINS, obsługują Dota 2 i pozwalają wypłacić saldo. Przed sprzedażą porównaj prowizje i metody wypłat."
+    ],
+    [
+     "Czy kody promocyjne działają też dla Dota 2?",
+     "Na stronach z wieloma grami kod lub bonus jest przypisany do konta, więc zwykle działa niezależnie od gry. Sprawdź warunki na stronie."
+    ],
+    [
+     "Jak uniknąć oszustw przy handlu Dota 2?",
+     "Używaj mobilnego Steam Guard, potwierdzaj tylko swoje wymiany, sprawdzaj partnera w oknie potwierdzenia i ignoruj linki do „darmowych przedmiotów” na czatach i Discordzie."
+    ]
+   ],
+   "seo": [
+    "## Sprzedaż i zakup przedmiotów Dota 2 poza Rynkiem Steam",
+    "Salda Rynku Steam nie da się wypłacić w gotówce. Rynki P2P pozwalają graczom sprzedawać sobie przedmioty Dota 2 i wypłacać pieniądze, zwykle za prowizję kilku procent.",
+    "## Co porównać",
+    "- Prowizje sprzedającego i kupującego.",
+    "- Metody wypłat: karta, krypto lub e-portfele.",
+    "- Szybkość dostawy i ewentualną blokadę wymiany.",
+    "## Skrzynki z przedmiotami Dota 2",
+    "Niektóre strony ze skrzynkami oferują też skrzynki Dota 2. To hazard tylko dla osób 18+: ustal budżet i nie odrabiaj strat."
+   ]
+  }
+ },
+ "tr": {
+  "label": "Oyun",
+  "games_label": "Oyunlar",
+  "games_sent": "{name} şu oyunların eşyalarını destekler: {list}.",
+  "names": {
+   "cs2": "CS2",
+   "rust": "Rust",
+   "dota2": "Dota 2"
+  },
+  "rust": {
+   "title": "Rust Promosyon Kodları {month} {year} — Rust Skin Siteleri, Kasa ve Takas",
+   "desc": "Rust eşyalarını kabul eden siteler: kasa açma, bot takası ve P2P pazarlar. Çalışan promosyon kodları ve bonuslar, kontrol: {month} {year}.",
+   "h1": "Rust skin siteleri ve promosyon kodları",
+   "intro": "Katalogumuzda Rust skinlerini destekleyen platformlar — kasa açmak, botlarla takas yapmak ya da P2P pazarlarda alıp satmak için. Bonus ve kod tüm hesap için geçerlidir.",
+   "faq": [
+    [
+     "Rust skinlerini gerçek paraya nerede satabilirim?",
+     "DMarket, Waxpeer ve LIS-SKINS gibi P2P pazarlarda Rust skinlerini listeleyip bakiyeyi çekebilirsiniz. Bot siteleri (Tradeit, SkinSwap) anında alır ama genelde biraz daha az öder."
+    ],
+    [
+     "CS2 promosyon kodu aynı sitede Rust için de geçerli mi?",
+     "Genellikle evet: kod veya referans bonusu tek bir oyuna değil, hesabınıza bağlıdır. Bonus şartlarını sitede kontrol edin."
+    ],
+    [
+     "Rust skinlerini güvenli nasıl takas ederim?",
+     "Steam Guard Mobil Doğrulayıcıyı açın, yalnızca kendi başlattığınız takasları onaylayın, onay ekranında botun adını ve seviyesini kontrol edin ve sohbetlerden gelen linklerle Steam'e giriş yapmayın."
+    ]
+   ],
+   "seo": [
+    "## Rust skin siteleri nasıl çalışır",
+    "Rust eşyaları normal Steam envanteri eşyalarıdır; bu yüzden siteler bunları takas teklifleriyle kabul edebilir. Bazı siteler Rust skinlerini başka Rust veya CS2 eşyalarıyla takas eder, bazıları ise değeri çekilebilir bakiye olarak öder.",
+    "## Hangi site türünü seçmeli",
+    "- P2P pazar: satışta en iyi fiyat, ancak satış zaman alabilir.",
+    "- Bot takası: büyük bot envanterinden anında takas veya satış, küçük bir fiyat farkıyla.",
+    "- Kasa siteleri: yalnızca 18+ eğlence — gelir değil, harcama olarak görün.",
+    "## Rust eşyası yatırmadan önce",
+    "- Aynı skinin fiyatını iki üç sitede karşılaştırın.",
+    "- Çekim yöntemlerini ve minimum tutarları kontrol edin.",
+    "- Steam API anahtarınızı kimseyle paylaşmayın; paylaştıysanız iptal edin."
+   ]
+  },
+  "dota2": {
+   "title": "Dota 2 Promosyon Kodları {month} {year} — Dota 2 Eşya Siteleri, Kasa ve Takas",
+   "desc": "Dota 2 eşyalarını kabul eden siteler: P2P pazarlar ve kasa açma. Çalışan promosyon kodları ve bonuslar, kontrol: {month} {year}.",
+   "h1": "Dota 2 eşya siteleri ve promosyon kodları",
+   "intro": "Katalogumuzda Dota 2 eşyalarını destekleyen platformlar — alım, satım veya kasa açma için. Bonus ve kod her sitede hesabınıza uygulanır.",
+   "faq": [
+    [
+     "Dota 2 eşyalarını nerede satabilirim?",
+     "DMarket, Waxpeer ve LIS-SKINS gibi P2P pazarlar Dota 2 eşyalarını listeler ve bakiyeyi çekmenize izin verir. Satmadan önce komisyonları ve çekim yöntemlerini karşılaştırın."
+    ],
+    [
+     "Promosyon kodları Dota 2 eşyaları için de geçerli mi?",
+     "Çok oyunlu sitelerde kod veya bonus hesabınıza bağlıdır, bu yüzden genelde oyundan bağımsız çalışır. Şartları sitede kontrol edin."
+    ],
+    [
+     "Dota 2 takasında dolandırıcılıktan nasıl kaçınırım?",
+     "Steam Guard Mobil Doğrulayıcı kullanın, yalnızca kendi takaslarınızı onaylayın, onay ekranında karşı tarafı kontrol edin ve Steam sohbetinde ya da Discord'da gelen 'bedava eşya' linklerini yok sayın."
+    ]
+   ],
+   "seo": [
+    "## Dota 2 eşyalarını Steam Pazarı dışında alıp satmak",
+    "Steam Pazarı bakiyesi nakit olarak çekilemez. P2P pazarlar oyuncuların Dota 2 eşyalarını birbirine satmasına ve parayı çekmesine izin verir; genelde birkaç yüzde satıcı komisyonu alınır.",
+    "## Neleri karşılaştırmalı",
+    "- Satıcı ve alıcı komisyonları.",
+    "- Çekim yöntemleri: kart, kripto veya e-cüzdan.",
+    "- Teslimat hızı ve takas beklemesi olup olmadığı.",
+    "## Dota 2 eşyalarıyla kasa açma",
+    "Bazı kasa siteleri Dota 2 kasaları da sunar. Bu yalnızca 18+ için kumardır: bütçe belirleyin ve kayıpları kovalamayın."
+   ]
+  }
+ },
+ "pt-br": {
+  "label": "Jogo",
+  "games_label": "Jogos",
+  "games_sent": "{name} aceita itens de: {list}.",
+  "names": {
+   "cs2": "CS2",
+   "rust": "Rust",
+   "dota2": "Dota 2"
+  },
+  "rust": {
+   "title": "Códigos Promocionais Rust {month} {year} — Sites de Skins Rust, Caixas e Trade",
+   "desc": "Sites que aceitam itens de Rust: abertura de caixas, trade com bots e marketplaces P2P. Códigos promocionais e bônus funcionando, verificados em {month} {year}.",
+   "h1": "Sites de skins Rust e códigos promocionais",
+   "intro": "Plataformas do nosso catálogo que aceitam skins de Rust — para abrir caixas, trocar com bots ou comprar e vender em marketplaces P2P. O bônus e o código valem para a conta toda.",
+   "faq": [
+    [
+     "Onde vender skins de Rust por dinheiro real?",
+     "Marketplaces P2P como DMarket, Waxpeer e LIS-SKINS permitem anunciar skins de Rust e sacar o saldo. Sites de bots (Tradeit, SkinSwap) compram na hora, mas costumam pagar um pouco menos."
+    ],
+    [
+     "O código promocional de CS2 vale para Rust no mesmo site?",
+     "Normalmente sim: o código ou bônus de indicação fica ligado à sua conta, não a um jogo. Confira sempre as regras do bônus no site."
+    ],
+    [
+     "Como trocar skins de Rust com segurança?",
+     "Ative o Steam Guard Mobile, confirme só trades que você iniciou, confira o nome e o nível do bot na confirmação e nunca entre na Steam por links de chats ou DMs."
+    ]
+   ],
+   "seo": [
+    "## Como funcionam os sites de skins Rust",
+    "Itens de Rust são itens normais do inventário Steam, então sites externos podem recebê-los por ofertas de troca. Alguns trocam skins de Rust por outros itens de Rust ou CS2, outros pagam o valor como saldo sacável.",
+    "## Qual tipo de site escolher",
+    "- Marketplace P2P: melhor preço na venda, mas pode demorar.",
+    "- Trade com bots: troca ou venda instantânea, com uma pequena diferença de preço.",
+    "- Sites de caixas: diversão só para 18+ — trate como gasto, não como renda.",
+    "## Antes de depositar itens de Rust",
+    "- Compare o preço da mesma skin em dois ou três sites.",
+    "- Veja os métodos e valores mínimos de saque.",
+    "- Não compartilhe sua chave da API Steam; se compartilhou, revogue."
+   ]
+  },
+  "dota2": {
+   "title": "Códigos Promocionais Dota 2 {month} {year} — Sites de Itens Dota 2, Caixas e Trade",
+   "desc": "Sites que aceitam itens de Dota 2: marketplaces P2P e abertura de caixas. Códigos promocionais e bônus funcionando, verificados em {month} {year}.",
+   "h1": "Sites de itens Dota 2 e códigos promocionais",
+   "intro": "Plataformas do nosso catálogo que aceitam itens de Dota 2 — para comprar, vender ou abrir caixas. O bônus e o código valem para sua conta em cada site.",
+   "faq": [
+    [
+     "Onde vender itens de Dota 2?",
+     "Marketplaces P2P como DMarket, Waxpeer e LIS-SKINS aceitam itens de Dota 2 e permitem sacar o saldo. Compare taxas e métodos de saque antes de vender."
+    ],
+    [
+     "Os códigos promocionais valem para itens de Dota 2?",
+     "Em sites com vários jogos, o código ou bônus fica ligado à conta, então normalmente vale para qualquer jogo. Confira as regras no site."
+    ],
+    [
+     "Como evitar golpes no trade de Dota 2?",
+     "Use o Steam Guard Mobile, confirme só os seus trades, confira o parceiro na tela de confirmação e ignore links de 'item grátis' no chat da Steam ou no Discord."
+    ]
+   ],
+   "seo": [
+    "## Vender e comprar itens de Dota 2 fora do Mercado Steam",
+    "O saldo do Mercado Steam não pode ser sacado em dinheiro. Marketplaces P2P permitem que jogadores vendam itens de Dota 2 entre si e saquem o dinheiro, geralmente com taxa de venda de alguns por cento.",
+    "## O que comparar",
+    "- Taxas de vendedor e comprador.",
+    "- Métodos de saque: cartão, cripto ou carteiras digitais.",
+    "- Velocidade de entrega e se há bloqueio de troca.",
+    "## Caixas com itens de Dota 2",
+    "Alguns sites de caixas também têm caixas de Dota 2. Isso é aposta só para 18+: defina um orçamento e não tente recuperar perdas."
+   ]
+  }
+ },
+ "es": {
+  "label": "Juego",
+  "games_label": "Juegos",
+  "games_sent": "{name} admite objetos de: {list}.",
+  "names": {
+   "cs2": "CS2",
+   "rust": "Rust",
+   "dota2": "Dota 2"
+  },
+  "rust": {
+   "title": "Códigos Promocionales Rust {month} {year} — Webs de Skins Rust, Cajas y Trading",
+   "desc": "Webs que aceptan objetos de Rust: apertura de cajas, trading con bots y mercados P2P. Códigos promocionales y bonos que funcionan, revisados en {month} {year}.",
+   "h1": "Webs de skins Rust y códigos promocionales",
+   "intro": "Plataformas de nuestro catálogo que admiten skins de Rust — para abrir cajas, intercambiar con bots o comprar y vender en mercados P2P. El bono y el código valen para toda la cuenta.",
+   "faq": [
+    [
+     "¿Dónde vender skins de Rust por dinero real?",
+     "Mercados P2P como DMarket, Waxpeer y LIS-SKINS permiten publicar skins de Rust y retirar el saldo. Las webs de bots (Tradeit, SkinSwap) compran al instante, pero suelen pagar algo menos."
+    ],
+    [
+     "¿El código promocional de CS2 sirve para Rust en la misma web?",
+     "Normalmente sí: el código o bono de referido va ligado a tu cuenta, no a un juego. Revisa siempre las condiciones del bono en la web."
+    ],
+    [
+     "¿Cómo intercambiar skins de Rust de forma segura?",
+     "Activa el Steam Guard Mobile, confirma solo intercambios que iniciaste tú, revisa el nombre y nivel del bot en la confirmación y nunca inicies sesión en Steam desde enlaces de chats o mensajes."
+    ]
+   ],
+   "seo": [
+    "## Cómo funcionan las webs de skins Rust",
+    "Los objetos de Rust son objetos normales del inventario de Steam, así que las webs externas pueden recibirlos mediante ofertas de intercambio. Algunas cambian skins de Rust por otros objetos de Rust o CS2 y otras pagan el valor como saldo retirable.",
+    "## Qué tipo de web elegir",
+    "- Mercado P2P: mejor precio al vender, aunque la venta puede tardar.",
+    "- Trading con bots: cambio o venta al instante, con un pequeño margen.",
+    "- Webs de cajas: entretenimiento solo para mayores de 18 — tómalo como un gasto, no como un ingreso.",
+    "## Antes de depositar objetos de Rust",
+    "- Compara el precio de la misma skin en dos o tres webs.",
+    "- Revisa los métodos y mínimos de retiro.",
+    "- No compartas tu clave API de Steam; si lo hiciste, revócala."
+   ]
+  },
+  "dota2": {
+   "title": "Códigos Promocionales Dota 2 {month} {year} — Webs de Objetos Dota 2, Cajas y Trading",
+   "desc": "Webs que aceptan objetos de Dota 2: mercados P2P y apertura de cajas. Códigos promocionales y bonos que funcionan, revisados en {month} {year}.",
+   "h1": "Webs de objetos Dota 2 y códigos promocionales",
+   "intro": "Plataformas de nuestro catálogo que admiten objetos de Dota 2 — para comprar, vender o abrir cajas. El bono y el código se aplican a tu cuenta en cada web.",
+   "faq": [
+    [
+     "¿Dónde vender objetos de Dota 2?",
+     "Mercados P2P como DMarket, Waxpeer y LIS-SKINS admiten objetos de Dota 2 y permiten retirar el saldo. Compara comisiones y métodos de retiro antes de vender."
+    ],
+    [
+     "¿Los códigos promocionales sirven para objetos de Dota 2?",
+     "En webs con varios juegos, el código o bono va ligado a la cuenta, así que normalmente sirve para cualquier juego. Revisa las condiciones en la web."
+    ],
+    [
+     "¿Cómo evitar estafas al intercambiar en Dota 2?",
+     "Usa el Steam Guard Mobile, confirma solo tus intercambios, revisa a la otra parte en la pantalla de confirmación e ignora enlaces de 'objeto gratis' en el chat de Steam o Discord."
+    ]
+   ],
+   "seo": [
+    "## Vender y comprar objetos de Dota 2 fuera del Mercado de Steam",
+    "El saldo del Mercado de Steam no se puede retirar en efectivo. Los mercados P2P permiten a los jugadores venderse objetos de Dota 2 y retirar el dinero, normalmente con una comisión de venta de unos pocos por ciento.",
+    "## Qué comparar",
+    "- Comisiones de vendedor y comprador.",
+    "- Métodos de retiro: tarjeta, cripto o monederos electrónicos.",
+    "- Rapidez de entrega y si hay bloqueo de intercambio.",
+    "## Cajas con objetos de Dota 2",
+    "Algunas webs de cajas también ofrecen cajas de Dota 2. Es juego de azar solo para mayores de 18: fija un presupuesto y no persigas pérdidas."
+   ]
+  }
+ }
+}
