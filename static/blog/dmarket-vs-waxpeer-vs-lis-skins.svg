@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<defs>
+<radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="translate(120 60) scale(760 520)" gradientUnits="userSpaceOnUse"><stop stop-color="#a855f7" stop-opacity=".55"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></radialGradient>
+<radialGradient id="b" cx="0" cy="0" r="1" gradientTransform="translate(1100 600) scale(700 480)" gradientUnits="userSpaceOnUse"><stop stop-color="#06b6d4" stop-opacity=".45"/><stop offset="1" stop-color="#06b6d4" stop-opacity="0"/></radialGradient>
+<linearGradient id="t" x1="0" x2="1"><stop stop-color="#fff"/><stop offset=".55" stop-color="#f5d0fe"/><stop offset="1" stop-color="#fcd34d"/></linearGradient>
+<pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#fff" stroke-opacity=".04"/></pattern>
+</defs>
+<rect width="1200" height="630" fill="#07080d"/><rect width="1200" height="630" fill="url(#grid)"/>
+<rect width="1200" height="630" fill="url(#a)"/><rect width="1200" height="630" fill="url(#b)"/>
+<text x="72" y="118" fill="#d8b4fe" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="800" font-size="26" letter-spacing="6">SELL CS2 SKINS</text>
+<text x="72" y="196" fill="url(#t)" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="800" font-size="55">DMARKET · WAXPEER · LIS-SKINS</text>
+<text x="72" y="248" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="600" font-size="30">Fees · Payouts · Speed</text>
+<text x="72" y="364" fill="#e2e8f0" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="800" font-size="30">DMarket</text><rect x="300" y="328" width="190" height="50" rx="12" fill="#a855f7"/><text x="508" y="366" fill="#fff" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="800" font-size="32">2%</text><text x="72" y="454" fill="#e2e8f0" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="800" font-size="30">Waxpeer</text><rect x="300" y="418" width="570" height="50" rx="12" fill="#f59e0b"/><text x="888" y="456" fill="#fff" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="800" font-size="32">6%</text><text x="72" y="544" fill="#e2e8f0" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="800" font-size="30">LIS-SKINS</text><rect x="300" y="508" width="522" height="50" rx="12" fill="#06b6d4"/><text x="840" y="546" fill="#fff" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="800" font-size="32">5–6%</text><text x="1128" y="590" text-anchor="end" fill="#94a3b8" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="600" font-size="22">seller fee</text>
+</svg>
