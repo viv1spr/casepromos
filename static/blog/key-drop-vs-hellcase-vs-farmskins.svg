@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+<defs>
+<radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="translate(120 60) scale(760 520)" gradientUnits="userSpaceOnUse"><stop stop-color="#f43f5e" stop-opacity=".55"/><stop offset="1" stop-color="#f43f5e" stop-opacity="0"/></radialGradient>
+<radialGradient id="b" cx="0" cy="0" r="1" gradientTransform="translate(1100 600) scale(700 480)" gradientUnits="userSpaceOnUse"><stop stop-color="#84cc16" stop-opacity=".45"/><stop offset="1" stop-color="#84cc16" stop-opacity="0"/></radialGradient>
+<linearGradient id="t" x1="0" x2="1"><stop stop-color="#fff"/><stop offset=".55" stop-color="#f5d0fe"/><stop offset="1" stop-color="#fcd34d"/></linearGradient>
+<pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#fff" stroke-opacity=".04"/></pattern>
+</defs>
+<rect width="1200" height="630" fill="#07080d"/><rect width="1200" height="630" fill="url(#grid)"/>
+<rect width="1200" height="630" fill="url(#a)"/><rect width="1200" height="630" fill="url(#b)"/>
+<text x="72" y="118" fill="#fda4af" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="800" font-size="26" letter-spacing="6">CS2 · CASE SITES</text>
+<text x="72" y="196" fill="url(#t)" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="800" font-size="51">KEY-DROP · HELLCASE · FARMSKINS</text>
+<text x="72" y="248" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="600" font-size="30">Cases · Battles · Upgrader</text>
+<g transform="translate(130 330)"><rect width="200" height="200" rx="44" fill="#f43f5e"/><rect width="200" height="200" rx="44" fill="#000" opacity=".15"/><text x="100" y="132" text-anchor="middle" fill="#fff" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="800" font-size="96">K</text></g><g transform="translate(500 330)"><rect width="200" height="200" rx="44" fill="#ef4444"/><rect width="200" height="200" rx="44" fill="#000" opacity=".15"/><text x="100" y="132" text-anchor="middle" fill="#fff" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="800" font-size="96">H</text></g><g transform="translate(870 330)"><rect width="200" height="200" rx="44" fill="#84cc16"/><rect width="200" height="200" rx="44" fill="#000" opacity=".15"/><text x="100" y="132" text-anchor="middle" fill="#fff" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="800" font-size="96">F</text></g><g fill="#e2e8f0" opacity=".8"><text x="415" y="450" text-anchor="middle" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="800" font-size="54">vs</text><text x="785" y="450" text-anchor="middle" font-family="Segoe UI, Inter, Arial, sans-serif" font-weight="800" font-size="54">vs</text></g>
+</svg>
