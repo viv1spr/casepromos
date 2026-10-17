@@ -135,8 +135,8 @@
    "kyc": "KYC required to cash out",
    "delays": "Reports of payout delays"
   },
-  "q_code": "Is there a {name} promo code?",
-  "a_code_yes": "Yes. Use the code {code} to get {bonus}.",
+  "q_code": "Is there a {name} promo code or referral code?",
+  "a_code_yes": "Yes. {code} is our promo code (it is also our affiliate/referral code). Enter it at sign-up or in the bonus section to get {bonus}.",
   "a_code_no": "Yes. Sign up through our link to get {bonus}.",
   "q_what": "What can you do on {name}?",
   "q_wd": "How do I withdraw from {name}?",
